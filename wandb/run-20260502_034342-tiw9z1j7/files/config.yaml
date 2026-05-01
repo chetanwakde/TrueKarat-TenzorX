@@ -1,0 +1,48 @@
+_wandb:
+    value:
+        cli_version: 0.26.1
+        e:
+            mpzh2qqc70gl5fcq2hnxgeq1sd4dsd52:
+                codePath: src\train.py
+                codePathLocal: src\train.py
+                cpu_count: 8
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "456069025792"
+                        used: "238885978112"
+                email: chetanrwakde7@gmail.com
+                executable: C:\Users\cheta\miniforge3\python.exe
+                host: ChetansVivobook
+                memory:
+                    total: "16759111680"
+                os: Windows-11-10.0.26200-SP0
+                program: C:\Users\cheta\.antigravity\TenzorX\src\train.py
+                python: CPython 3.12.11
+                root: C:\Users\cheta\.antigravity\TenzorX
+                startedAt: "2026-05-01T22:13:42.751658Z"
+                writerId: mpzh2qqc70gl5fcq2hnxgeq1sd4dsd52
+        m: []
+        python_version: 3.12.11
+        t:
+            "1":
+                - 1
+                - 41
+                - 49
+                - 63
+                - 80
+            "2":
+                - 1
+                - 41
+                - 49
+                - 63
+                - 80
+            "3":
+                - 2
+                - 13
+            "4": 3.12.11
+            "5": 0.26.1
+            "8":
+                - 3
+            "12": 0.26.1
+            "13": windows-arm64

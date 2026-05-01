@@ -1,0 +1,24 @@
+{
+  "os":  "Windows-11-10.0.26200-SP0",
+  "python":  "CPython 3.12.11",
+  "startedAt":  "2026-05-01T22:12:19.051541Z",
+  "program":  "C:\\Users\\cheta\\.antigravity\\TenzorX\\src\\train.py",
+  "codePath":  "src\\train.py",
+  "codePathLocal":  "src\\train.py",
+  "email":  "chetanrwakde7@gmail.com",
+  "root":  "C:\\Users\\cheta\\.antigravity\\TenzorX",
+  "host":  "ChetansVivobook",
+  "executable":  "C:\\Users\\cheta\\miniforge3\\python.exe",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "456069025792",
+      "used":  "238800064512"
+    }
+  },
+  "memory":  {
+    "total":  "16759111680"
+  },
+  "writerId":  "avr90fwc1agnxe282avjxqgrqadu3uxr"
+}
