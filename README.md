@@ -69,30 +69,30 @@ We combined visual classification with an acoustic "Tap-Test" to validate densit
 
 ## ⚙️ Local Setup & Deployment
 
-### Prerequisites
-*   Python 3.10+
-*   Node.js v18+
-*   Expo CLI
+### 1. Backend Initialization (Laptop/Server)
+**Important:** Your laptop and mobile device **must be on the same WiFi network or Hotspot** for the app to connect to the backend.
 
-### Backend Initialization
 ```bash
 cd Model
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
-# Start the server
+# Start the server on all network interfaces
 python -m uvicorn src.api:app --host 0.0.0.0 --port 8000
 ```
+*Note: Make sure your firewall allows incoming connections on port 8000.*
 
-### Frontend Initialization
-```bash
-cd Frontend/frontend 2
-npm install
+### 2. Frontend Application (APK)
+You do not need to build the app from source. We have provided a production-ready APK!
 
-# Start the Expo development server
-npx expo start
-```
+📥 **[Download TrueKarat APK (Build 3)](https://expo.dev/accounts/chetanwakde/projects/truekarat/builds/70b9eeb9-f3bb-4cbc-a420-a5d0e4070a86)**
+
+### 3. Ensuring 100% Connectivity
+To ensure the APK successfully communicates with the backend:
+1. Connect your Android phone to the **same WiFi network** as your laptop, OR turn on your laptop's Mobile Hotspot and connect your phone to it.
+2. Run the backend command exactly as shown above (`--host 0.0.0.0`).
+3. Open the TrueKarat app. The app features an **AUTO-DISCOVER network scanner** that will automatically ping common local subnet IPs (e.g., `192.168.x.x:8000`, `172.x.x.x:8000`) to find your backend seamlessly without any manual configuration!
 
 ---
 
