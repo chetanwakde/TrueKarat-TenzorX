@@ -1,13 +1,15 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/chetanwakde/TrueKarat-TenzorX/main/Frontend/frontend%202/public/icons.svg" alt="TrueKarat Logo" width="120" height="120" />
+  <img src="https://raw.githubusercontent.com/chetanwakde/TrueKarat-TenzorX/main/Frontend/frontend%202/assets/logo.png" alt="TrueKarat Logo" width="180" height="180" />
 
-  # 💛 TrueKarat
+  # TrueKarat
   **AI-Powered Multi-Modal Gold Assessment System**
 
   [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
   [![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/)
   [![OpenAI CLIP](https://img.shields.io/badge/OpenAI_CLIP-412991?style=for-the-badge&logo=openai&logoColor=white)](https://github.com/openai/CLIP)
   [![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)](https://github.com/ultralytics/ultralytics)
+
+  ### 📺 [Watch the Demo Video](https://youtu.be/fF892Zr7XHg?si=b-5Upgyv0BSGkgq0)
 
   *Democratizing gold valuation for instant lending through Computer Vision and Acoustic Frequency Analysis.*
 </div>
