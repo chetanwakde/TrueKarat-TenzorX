@@ -23,7 +23,7 @@
 ## 💎 Core Innovations
 
 ### 1. Coin-Referenced Physical Scaling
-TrueKarat eliminates perspective distortion and distance variables by using a standard **₹10 coin (fixed 27mm diameter)** as an absolute physical reference. The custom-trained YOLOv8 model calculates real-time `px_per_mm` scaling to accurately estimate the volume and weight of the jewelry.
+TrueKarat eliminates perspective distortion and distance variables by using a standard **₹10 coin (fixed 27mm diameter)** as an absolute physical reference. To achieve this, we built a **custom-trained object detection model (`truekarat.onnx`)** fine-tuned specifically for this application. This ultra-fast ONNX model calculates real-time `px_per_mm` scaling to accurately estimate the volume and weight of the jewelry.
 
 ### 2. Multi-Modal Purity Fusion (Vision + Sound)
 We combined visual classification with an acoustic "Tap-Test" to validate density and authenticity.
@@ -49,7 +49,7 @@ We combined visual classification with an acoustic "Tap-Test" to validate densit
 *   **Audio Processing:** `PyAV` (Advanced FFmpeg wrapper) for high-fidelity M4A/AAC decoding and frequency extraction.
 *   **Computer Vision Stack:**
     *   **OpenAI CLIP:** Zero-shot image classification to identify jewelry sub-categories (Ring, Bangle, Necklace, etc.).
-    *   **Ultralytics YOLOv8:** Custom-trained object detection for the ₹10 reference coin.
+    *   **Custom YOLOv8 (`truekarat.onnx`):** Our proprietary, custom-trained ONNX model optimized for high-speed, accurate detection of the ₹10 reference coin.
     *   **OpenCV:** Adaptive Gaussian Thresholding and morphological contour detection for precise boundary extraction.
 
 ---
