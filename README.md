@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/chetanwakde/TrueKarat-TenzorX/main/Frontend/frontend%202/assets/logo.png" alt="TrueKarat Logo" width="180" height="180" />
+  <img src="https://raw.githubusercontent.com/chetanwakde/TrueKarat-TenzorX/main/docs/images/logo.png" alt="TrueKarat Logo" width="180" height="180" />
 
   # TrueKarat
   **AI-Powered Multi-Modal Gold Assessment System**
