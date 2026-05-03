@@ -1,0 +1,14 @@
+node_modules/
+.expo/
+dist/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+raw_data/
+wandb/
+PROJECT_SUMMARY.md
+HACKATHON_PROJECT_INFO.md
+copy_logo.bat
+update_logo.py
+test_api.py
