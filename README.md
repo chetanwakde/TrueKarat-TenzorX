@@ -29,7 +29,7 @@ TrueKarat eliminates perspective distortion and distance variables by using a st
 
 ### 2. Multi-Modal Purity Fusion (Vision + Sound)
 We combined visual classification with an acoustic "Tap-Test" to validate density and authenticity.
-*   **Visual Authenticity (50 pts):** Analyzes surface texture, hallmarks, and structural integrity.
+*   **Visual Authenticity (50 pts):** Analyzes surface texture, structural integrity, and performs AI-driven **Hallmark Detection** to verify official purity stamps (e.g., BIS 916, 22K, HUID).
 *   **Acoustic Resonance (50 pts):** Uses Fast Fourier Transform (FFT) to detect hollow or counterfeit items based on sound frequency signatures.
 
 ### 3. Financial Intelligence Engine
@@ -50,6 +50,7 @@ We combined visual classification with an acoustic "Tap-Test" to validate densit
 *   **API Framework:** FastAPI running on Uvicorn
 *   **Audio Processing:** `PyAV` (Advanced FFmpeg wrapper) for high-fidelity M4A/AAC decoding and frequency extraction.
 *   **Computer Vision Stack:**
+    *   **Hallmark Detection Module:** Specialized AI-driven OCR and pattern recognition to identify and validate official assay markers and purity stamps on the jewelry surface.
     *   **OpenAI CLIP:** Zero-shot image classification to identify jewelry sub-categories (Ring, Bangle, Necklace, etc.).
     *   **Custom YOLOv8 (`truekarat.onnx`):** Our proprietary, custom-trained ONNX model optimized for high-speed, accurate detection of the ₹10 reference coin.
     *   **OpenCV:** Adaptive Gaussian Thresholding and morphological contour detection for precise boundary extraction.
@@ -61,6 +62,7 @@ We combined visual classification with an acoustic "Tap-Test" to validate densit
 1.  **Guided Multi-Angle Scan:** The user is guided through a 4-step physical capture process (Front View, Side Angle, Macro Detail, and Coin Reference).
 2.  **Acoustic Tap Test:** The user taps the jewelry, and the app records the resulting resonance frequencies.
 3.  **AI Processing:**
+    *   `Hallmark Detection` verifies purity stamps and assay markers.
     *   `CLIP` identifies the jewelry type.
     *   `YOLO` isolates the coin to calculate spatial scaling.
     *   `OpenCV` estimates the physical volume.
